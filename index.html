@@ -1,97 +1,93 @@
 <!DOCTYPE html>
 <html lang="ja">
-	<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="format-detection" content="telephone=no">
-		<title>トップ | エディター</title>
-		<meta name="description" content="サイト概要">
-		<meta name="keywords" content="キーワード1, キーワード2">
-		<link rel="stylesheet" href="css/common.css">
-		<link rel="shortcut icon" href="//example.com/images/favicon.ico">
-		<script src="js/other/jquery.min.js"></script>
-		<script src="js/other/TweenMax.min.js"></script>
-		<script src="js/other/jquery.inview.min.js"></script>
-		<script src="js/other/t.min.js"></script>
-		<meta property="og:title" content="エディター">
-		<meta property="og:type" content="website">
-		<meta property="og:image" content="//example.com/images/og-image.jpg">
-		<meta property="og:url" content="//example.com/index.html">
-		<meta property="og:description" content="サイト概要">
-		<meta property="og:site_name" content="エディター">
-		<meta property="og:locale" content="ja">
-		<meta property="fb:admins" content="">
-		<meta property="fb:app_id" content="">
-		<meta name="twitter:card" content="summary">
-		<meta name="twitter:site" content="@">
-	</head>
-	<body>
-		<div class="l-Wrapper">
-			<div class="l-Navigation">
-				<div class="l-Navigation__Inner">
-					<p class="l-Navigation__Title">Project</p>
-					<ul class="l-Navigation__Items">
-						<li class="l-Navigation__Item l-Navigation__Item--donw mL60">editor    
-							<ul class="l-Navigation__Items mT15">
-								<li class="l-Navigation__Item l-Navigation__Item--donw mL20">dev
-									<ul class="l-Navigation__Items mT15">
-										<li class="l-Navigation__Item l-Navigation__Item--right mL20 mB12">assets</li>
-										<li class="l-Navigation__File l-Navigation__File--html mB15">index.html</li>
-										<li class="l-Navigation__Item l-Navigation__Item--donw mL20 mB12">src
-											<ul class="l-Navigation__Items mT15">
-												<li class="l-Navigation__Item l-Navigation__Item--right mL20 mB12">assets         </li>
-												<li class="l-Navigation__Item l-Navigation__Item--donw mL20 mB12">views
-													<ul class="l-Navigation__Items mT15">
-														<li class="l-Navigation__Item l-Navigation__Item--right mL20 mB12">base</li>
-														<li class="l-Navigation__Item l-Navigation__Item--right mL20 mB12">includes                        </li>
-														<li class="l-Navigation__File l-Navigation__File--pug mB15">index.pug                                              </li>
-													</ul>
-												</li>
-											</ul>
-										</li>
-									</ul>
-								</li>
-							</ul>
-						</li>
-						<li class="l-Navigation__File l-Navigation__File--node mB15 mL60">node_module</li>
-						<li class="l-Navigation__File l-Navigation__File--babele mB15 mL60">.babelerc</li>
-						<li class="l-Navigation__File l-Navigation__File--editor mB15 mL60">.editorconfig</li>
-						<li class="l-Navigation__File l-Navigation__File--gulp mB15 mL60">.gulpfile.babel.js</li>
-						<li class="l-Navigation__File l-Navigation__File--json mB15 mL60">package.json</li>
-						<li class="l-Navigation__File l-Navigation__File--yarn mB15 mL60">yarn.lock                                           </li>
-					</ul>
-				</div>
+
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="format-detection" content="telephone=no">
+	<title>Atom</title>
+	<meta name="description" content="Atomを再現してみた。">
+	<link rel="stylesheet" href="css/common.css">
+	<meta property="og:title" content="エディター">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="//example.com/images/og-image.jpg">
+	<meta property="og:url" content="//example.com/index.html">
+	<meta property="og:description" content="Atomを再現してみた。">
+	<meta property="og:site_name" content="Atom">
+	<meta property="og:locale" content="ja">
+	<meta property="fb:admins" content="">
+	<meta property="fb:app_id" content="">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@">
+</head>
+
+<body>
+	<div class="l-Wrapper">
+		<div class="l-Navigation">
+			<div class="l-Navigation__Inner">
+				<p class="l-Navigation__Title">Project</p>
+				<ul class="l-Navigation__Items">
+					<li class="l-Navigation__Item l-Navigation__Item--donw mL60">editor
+						<ul class="l-Navigation__Items mT15">
+							<li class="l-Navigation__Item l-Navigation__Item--donw mL20">dev
+								<ul class="l-Navigation__Items mT15">
+									<li class="l-Navigation__Item l-Navigation__Item--right mL20 mB12">assets</li>
+									<li class="l-Navigation__File l-Navigation__File--html mB15">index.html</li>
+									<li class="l-Navigation__Item l-Navigation__Item--donw mL20 mB12">src
+										<ul class="l-Navigation__Items mT15">
+											<li class="l-Navigation__Item l-Navigation__Item--right mL20 mB12">assets </li>
+											<li class="l-Navigation__Item l-Navigation__Item--donw mL20 mB12">views
+												<ul class="l-Navigation__Items mT15">
+													<li class="l-Navigation__Item l-Navigation__Item--right mL20 mB12">base</li>
+													<li class="l-Navigation__Item l-Navigation__Item--right mL20 mB12">includes </li>
+													<li class="l-Navigation__File l-Navigation__File--pug mB15">index.pug </li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li class="l-Navigation__File l-Navigation__File--node mB15 mL60">node_module</li>
+					<li class="l-Navigation__File l-Navigation__File--babele mB15 mL60">.babelerc</li>
+					<li class="l-Navigation__File l-Navigation__File--editor mB15 mL60">.editorconfig</li>
+					<li class="l-Navigation__File l-Navigation__File--gulp mB15 mL60">.gulpfile.babel.js</li>
+					<li class="l-Navigation__File l-Navigation__File--json mB15 mL60">package.json</li>
+					<li class="l-Navigation__File l-Navigation__File--yarn mB15 mL60">yarn.lock </li>
+				</ul>
 			</div>
-			<div class="Editor">
-				<div class="Editor__Inner">
-					<div class="Editor__Left">
-						<div class="Editor__Tops">
-							<div class="Editor__Top Editor__Top--left">
-								<p class="Editor__File Editor__File--pug">index.pug</p>
-							</div>
-							<div class="Editor__Top Editor__Top--right"></div>
-						</div>
-						<div class="Editor__InputArea">
-							<div class="Editor__CodeNumber" aria-hidden="true"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span><span>11</span><span>12</span><span>13</span><span>14</span><span>15</span><span>16</span><span>17</span><span>18</span><span>19</span><span>20</span><span>21</span><span>22</span><span>23</span><span>24</span><span>25</span><span>26</span><span>27</span><span>28</span><span>29</span><span>30</span><span>31</span><span>32</span><span>33</span><span>34</span><span>35</span><span>36</span><span>37</span><span>38</span><span>39</span><span>40</span><span>41</span><span>42</span><span>43</span><span>44</span><span>45</span><span>46</span><span>47</span><span>48</span><span>49</span><span>50</span><span>51</span><span>52</span><span>53</span><span>54</span><span>55</span><span>56</span><span>57</span><span>58</span><span>59</span><span>60</span><span>61</span><span>62</span><span>63</span><span>64</span><span>65</span><span>66</span><span>67</span><span>68</span><span>69</span><span>70</span><span>71</span><span>72</span><span>73</span><span>74</span><span>75</span><span>76</span><span>77</span><span>78</span><span>79</span><span>80</span><span>81</span><span>82</span><span>83</span><span>84</span><span>85</span><span>86</span><span>87</span><span>88</span><span>89</span><span>90</span><span>91</span><span>92</span><span>93</span><span>94</span><span>95</span><span>96</span><span>97</span><span>98</span><span>99</span>
-							</div><code class="Editor__CodeBox"><span class="Editor__Code Editor__Code--blue mB4">.Editor</span><span class="Editor__Code Editor__Code--grey mB4 pL10">h1<span class="Editor__Code Editor__Code--blue">.Editor__Title</span></span><span class="Editor__Code Editor__Code--grey mL10 mB4 pL10">| ああああああああああ</span><span class="Editor__Code Editor__Code--grey mB4 pL10">p<span class="Editor__Code Editor__Code--blue pL10">.Editor__Description</span></span><span class="Editor__Code Editor__Code--grey mL10 mB10 pL10">| いいいいいいいいいいいいいいいいいい							</span></code>
-						</div>
-					</div>
-					<div class="Editor__Right">
-						<div class="Editor__Tops">
-							<div class="Editor__Top Editor__Top--left">
-								<p class="Editor__File Editor__File--sass">editor.scss</p>
-							</div>
-							<div class="Editor__Top Editor__Top--right"></div>
-						</div>
-						<div class="Editor__InputArea">
-							<div class="Editor__CodeNumber" aria-hidden="true"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span><span>11</span><span>12</span><span>13</span><span>14</span><span>15</span><span>16</span><span>17</span><span>18</span><span>19</span><span>20</span><span>21</span><span>22</span><span>23</span><span>24</span><span>25</span><span>26</span><span>27</span><span>28</span><span>29</span><span>30</span><span>31</span><span>32</span><span>33</span><span>34</span><span>35</span><span>36</span><span>37</span><span>38</span><span>39</span><span>40</span><span>41</span><span>42</span><span>43</span><span>44</span><span>45</span><span>46</span><span>47</span><span>48</span><span>49</span><span>50</span><span>51</span><span>52</span><span>53</span><span>54</span><span>55</span><span>56</span><span>57</span><span>58</span><span>59</span><span>60</span><span>61</span><span>62</span><span>63</span><span>64</span><span>65</span><span>66</span><span>67</span><span>68</span><span>69</span><span>70</span><span>71</span><span>72</span><span>73</span><span>74</span><span>75</span><span>76</span><span>77</span><span>78</span><span>79</span><span>80</span><span>81</span><span>82</span><span>83</span><span>84</span><span>85</span><span>86</span><span>87</span><span>88</span><span>89</span><span>90</span><span>91</span><span>92</span><span>93</span><span>94</span><span>95</span><span>96</span><span>97</span><span>98</span><span>99</span>
-							</div><code class="Editor__CodeBox"><span class="Editor__Code Editor__Code--blue mB4">.Editor <span class="Editor__Code Editor__Code--grey mB4">{							</span></span><span class="Editor__Codes"><span class="Editor__Code Editor__Code--grey mB4 pL10">&__Title {</span><span class="mL20 mB4"><span class="Editor__Code Editor__Code--grey">color: </span><span class="Editor__Code Editor__Code--blue">blue;</span></span><span class="Editor__Code Editor__Code--grey mB4 pL10">}</span></span><span class="Editor__Code Editor__Code--grey mB4">}							</span></code>
-						</div>
-					</div>
-				</div>
-			</div>
-			<script src="/js/bundle.js"></script>
 		</div>
-	</body>
+		<div class="Editor">
+			<div class="Editor__Inner">
+				<div class="Editor__Left">
+					<div class="Editor__Tops">
+						<div class="Editor__Top Editor__Top--left">
+							<p class="Editor__File Editor__File--pug">index.pug</p>
+						</div>
+						<div class="Editor__Top Editor__Top--right"></div>
+					</div>
+					<div class="Editor__InputArea">
+						<div class="Editor__CodeNumber" aria-hidden="true"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span><span>11</span><span>12</span><span>13</span><span>14</span><span>15</span><span>16</span><span>17</span><span>18</span><span>19</span><span>20</span><span>21</span><span>22</span><span>23</span><span>24</span><span>25</span><span>26</span><span>27</span><span>28</span><span>29</span><span>30</span><span>31</span><span>32</span><span>33</span><span>34</span><span>35</span><span>36</span><span>37</span><span>38</span><span>39</span><span>40</span><span>41</span><span>42</span><span>43</span><span>44</span><span>45</span><span>46</span><span>47</span><span>48</span><span>49</span><span>50</span><span>51</span><span>52</span><span>53</span><span>54</span><span>55</span><span>56</span><span>57</span><span>58</span><span>59</span><span>60</span><span>61</span><span>62</span><span>63</span><span>64</span><span>65</span><span>66</span><span>67</span><span>68</span><span>69</span><span>70</span><span>71</span><span>72</span><span>73</span><span>74</span><span>75</span><span>76</span><span>77</span><span>78</span><span>79</span><span>80</span><span>81</span><span>82</span><span>83</span><span>84</span><span>85</span><span>86</span><span>87</span><span>88</span><span>89</span><span>90</span><span>91</span><span>92</span><span>93</span><span>94</span><span>95</span><span>96</span><span>97</span><span>98</span><span>99</span>
+						</div><code class="Editor__CodeBox"><span class="Editor__Code Editor__Code--blue mB4">.Editor</span><span class="Editor__Code Editor__Code--grey mB4 pL10">h1<span class="Editor__Code Editor__Code--blue">.Editor__Title</span></span><span class="Editor__Code Editor__Code--grey mL10 mB4 pL10">| ああああああああああ</span><span class="Editor__Code Editor__Code--grey mB4 pL10">p<span class="Editor__Code Editor__Code--blue pL10">.Editor__Description</span></span><span class="Editor__Code Editor__Code--grey mL10 mB10 pL10">| いいいいいいいいいいいいいいいいいい							</span></code>
+					</div>
+				</div>
+				<div class="Editor__Right">
+					<div class="Editor__Tops">
+						<div class="Editor__Top Editor__Top--left">
+							<p class="Editor__File Editor__File--sass">editor.scss</p>
+						</div>
+						<div class="Editor__Top Editor__Top--right"></div>
+					</div>
+					<div class="Editor__InputArea">
+						<div class="Editor__CodeNumber" aria-hidden="true"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span><span>11</span><span>12</span><span>13</span><span>14</span><span>15</span><span>16</span><span>17</span><span>18</span><span>19</span><span>20</span><span>21</span><span>22</span><span>23</span><span>24</span><span>25</span><span>26</span><span>27</span><span>28</span><span>29</span><span>30</span><span>31</span><span>32</span><span>33</span><span>34</span><span>35</span><span>36</span><span>37</span><span>38</span><span>39</span><span>40</span><span>41</span><span>42</span><span>43</span><span>44</span><span>45</span><span>46</span><span>47</span><span>48</span><span>49</span><span>50</span><span>51</span><span>52</span><span>53</span><span>54</span><span>55</span><span>56</span><span>57</span><span>58</span><span>59</span><span>60</span><span>61</span><span>62</span><span>63</span><span>64</span><span>65</span><span>66</span><span>67</span><span>68</span><span>69</span><span>70</span><span>71</span><span>72</span><span>73</span><span>74</span><span>75</span><span>76</span><span>77</span><span>78</span><span>79</span><span>80</span><span>81</span><span>82</span><span>83</span><span>84</span><span>85</span><span>86</span><span>87</span><span>88</span><span>89</span><span>90</span><span>91</span><span>92</span><span>93</span><span>94</span><span>95</span><span>96</span><span>97</span><span>98</span><span>99</span>
+						</div><code class="Editor__CodeBox"><span class="Editor__Code Editor__Code--blue mB4">.Editor <span class="Editor__Code Editor__Code--grey mB4">{							</span></span><span class="Editor__Codes"><span class="Editor__Code Editor__Code--grey mB4 pL10">&__Title {</span><span class="mL20 mB4"><span class="Editor__Code Editor__Code--grey">color: </span><span class="Editor__Code Editor__Code--blue">blue;</span></span><span class="Editor__Code Editor__Code--grey mB4 pL10">}</span></span><span class="Editor__Code Editor__Code--grey mB4">}							</span></code>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
 </html>
